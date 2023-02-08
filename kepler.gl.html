@@ -37,7 +37,7 @@
         <script src="https://unpkg.com/styled-components@4.1.3/dist/styled-components.min.js" crossorigin></script>
 
         <!-- Load Kepler.gl -->
-        <script src="https://unpkg.com/kepler.gl@3.0.0-alpha.0/umd/keplergl.min.js" crossorigin></script>
+        <script src="https://unpkg.com/kepler.gl@2.5.5/umd/keplergl.min.js" crossorigin></script>
 
         <style type="text/css">
           body {margin: 0; padding: 0; overflow: hidden;}
@@ -81,7 +81,7 @@
         <!-- Load our React component. -->
         <script>
           /* Validate Mapbox Token */
-          if ((MAPBOX_TOKEN || '') === '' || MAPBOX_TOKEN === 'PROVIDE_MAPBOX_TOKEN') {
+          if ((MAPBOX_TOKEN || '') === '' || MAPBOX_TOKEN === 'pk.eyJ1IjoiMjJkaWVnbyIsImEiOiJjbGN6MXE2MzUwNm1yM29xb25vcTIxYzFuIn0.olNyUtsxOTj_eEHLg0IXyg') {
             alert(WARNING_MESSAGE);
           }
 
