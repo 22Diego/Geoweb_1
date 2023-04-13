@@ -1,5 +1,5 @@
 function addRutas() {
-    var url = 'datos/circuito-o-w.geojson';
+    var url = 'Datos/circuito-o-w.geojson';
     map.addSource('rutas-w-o', { type: 'geojson', data: url});
 
     map.addLayer({
