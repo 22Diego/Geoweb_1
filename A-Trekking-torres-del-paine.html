@@ -7,10 +7,11 @@
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css' rel='stylesheet' />
     <link href='css/estilobase.css' rel='stylesheet' />
 
+    <link id="manifest"  rel="manifest" href="manifest-pwa.json">
     <script src='js/3d.js'></script>
     <script src='js/Rutas_paine.js'></script>
     <script>
-        //Añadir vuestor token!!
+        
         var map;
         function init() {
         mapboxgl.accessToken =
@@ -85,5 +86,16 @@
          </div>
 
         <div id="map"></div>
+
+        <script>
+            if ('serviceWorker' in navigator) {
+                 navigator.serviceWorker
+                     .register('./sw.js')
+                     .then(function() {
+                         console.log("Todo ok!");
+                     }).catch (function(err){
+               console.log ("Error" , error)})
+             }
+       </script>
     </body>
     </html>
