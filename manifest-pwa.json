@@ -10,7 +10,7 @@
     "icons": [
 
       {
-        "src": "images/capture_128.png",
+        "src": "images/capture_256.png",
         "sizes": "128x128",
         "type": "image/png"
       }, 
