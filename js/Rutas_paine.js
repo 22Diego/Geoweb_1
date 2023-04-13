@@ -17,7 +17,7 @@ function addRutas() {
         
     });
     
-    var url = 'datos/lago-sarmiento.geojson';
+    var url = 'Datos/lago-sarmiento.geojson';
     map.addSource('rutas-lago-sarmiento', { type: 'geojson', data: url});
 
     map.addLayer({
@@ -34,7 +34,7 @@ function addRutas() {
         }
     });
 
-    var url = 'datos/mirador-serrano.geojson';
+    var url = 'Datos/mirador-serrano.geojson';
     map.addSource('rutas-mirador-serrano', { type: 'geojson', data: url});
 
     map.addLayer({
@@ -51,7 +51,7 @@ function addRutas() {
         }
     });
 
-    var url = 'datos/paine-grande.geojson';
+    var url = 'Datos/paine-grande.geojson';
     map.addSource('rutas-paine-grande', { type: 'geojson', data: url});
 
     map.addLayer({
@@ -68,7 +68,7 @@ function addRutas() {
         }
     });
 
-    var url = 'datos/mirador-lgrey.geojson';
+    var url = 'Datos/mirador-lgrey.geojson';
     map.addSource('rutas-mirador-lgrey', { type: 'geojson', data: url});
 
     map.addLayer({
