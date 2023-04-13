@@ -94,6 +94,4 @@ function zoomToRutas(valores) {
             center: [coord[2], coord[1]],
             zoom: coord[0]
         });
-    }
-
-    
+    } //dd    
